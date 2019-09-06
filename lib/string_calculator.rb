@@ -4,7 +4,7 @@ end
 #This Regex looks for anything that is not a positive or negative number
 LOOK_FOR_SEPARATORS = /[a-zA-Z;.\/*,\[\];\(\)\\\n]/
 
-def string_calculator(string)
+def add(string)
 
   num_array_as_str = string.gsub(LOOK_FOR_SEPARATORS, ',').split(",")
 
